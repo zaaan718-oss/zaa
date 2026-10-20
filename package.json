@@ -1,0 +1,10 @@
+{
+  "name": "framex-root",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd framex && npm install",
+    "build": "cd framex && npm run build",
+    "start": "cd framex && npm run start",
+    "dev": "cd framex && npm run dev"
+  }
+}

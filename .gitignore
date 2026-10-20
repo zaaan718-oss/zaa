@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+framex/node_modules/
+
+# Next.js build output
+.next/
+framex/.next/
+out/
+
+# Data user & upload - JANGAN pernah di-push, ini data pribadi/rahasia
+data/
+framex/data/
+
+# Environment variables / secrets - JANGAN PERNAH di-push ke GitHub
+.env
+.env.local
+.env*.local
+framex/.env
+framex/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
